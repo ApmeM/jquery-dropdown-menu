@@ -1,12 +1,14 @@
 /**
- * Extension for jQuery for show menu 
+ * Extension for jQuery fhow grouped drop-down menu 
  * Created by Artem Votincev (apmem.org)
- * Copyiright (c) 2010 Artem Votincev (apmem.org)
- * Download from https://github.com/ApmeM/jq-menu/
+ * Copyiright (c) 2011 Artem Votincev (apmem.org)
+ * Distributed under BSD license
  *
- * @requires jQuery.js
- * @version 1.1 
+ * @requires jquery.js
+ * @version 1.1
  * @author artem
+ * @download from https://github.com/ApmeM/jq-menu/
+ * @usage $('#mainmenu').menu();
  */
 
 (function($) {
@@ -15,14 +17,14 @@
             var config = {
                 speed: 300,
                 delaytime: 200,
-                zIndex: 1000
+                zIndex: 0
             }
             if (settings) $.extend(config, settings);
             $(this).children().each(function(){
             // first element - header text
                 var header = $(this).children().first();
                 var body = $(header).next();
-                var frame = $('<iframe src="javascript:\'&lt;html&gt;&lt;/html&gt;\';" frameborder="0" scrolling="no" style="display:none;position:absolute;border:none;z-index:0"/>');
+                var frame = $('<iframe src="javascript:\'&lt;html&gt;&lt;/html&gt;\';" frameborder="0" scrolling="no" style="display:none;position:absolute;border:none;z-index:' + config.zIndex + '"/>');
                 frame.appendTo($(this));
                 var headLeft = header.position().left;
                 var realLeft = (headLeft + body.outerWidth() < $(document).width()) ? headLeft : (headLeft + header.outerWidth() - body.outerWidth() < 0) ? 0: headLeft + header.outerWidth() - body.outerWidth();
