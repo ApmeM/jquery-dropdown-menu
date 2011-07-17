@@ -22,7 +22,7 @@ Most of the script abilities based on these styles. The only script behavior is 
 after the script attached it can be used on document load:
 
     $(document).ready(function () {
-        $("#Menu1_1_Child").menu();
+        $("#MainMenu").menu();
     });
 
 ## Configuration options
