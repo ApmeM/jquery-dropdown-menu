@@ -7,7 +7,7 @@
  * @requires jquery.js
  * @version 1.1
  * @author artem
- * @download from https://github.com/ApmeM/jq-menu/
+ * @download from https://github.com/ApmeM/jquery-dropdown-menu/
  * @usage $('#mainmenu').menu();
  */
 
