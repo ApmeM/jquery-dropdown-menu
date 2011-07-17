@@ -5,7 +5,7 @@
  * Download from http://git.apmem.org/jq-menu/
  *
  * @requires jQuery.js
- * @version 1.0 
+ * @version 1.1 
  * @author artem
  */
 
