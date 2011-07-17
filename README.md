@@ -17,11 +17,8 @@ Demonstration abailable at http://apmem.github.com/jquery-dropdown-menu/
 Currently the following browsers were tested to work with this menu plugin:
 
 * Firefox
-
 * Opera
-
 * Chrome
-
 * IE 6-9
 
 ## Installation and usage
@@ -44,9 +41,7 @@ After the script attached it can be used on document load:
 Script contain a few configuration options:
 
 * speed (default: 300) - jquery expand animate speed.
-
 * delaytime (default 200) - time after mouseout before menu start collaping
-
 * zIndex (default 0) - z-index style for iframe under menu
 
 ## Copyrights
