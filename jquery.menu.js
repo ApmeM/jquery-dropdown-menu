@@ -2,7 +2,7 @@
  * Extension for jQuery for show menu 
  * Created by Artem Votincev (apmem.org)
  * Copyiright (c) 2010 Artem Votincev (apmem.org)
- * Download from http://git.apmem.org/jq-menu/
+ * Download from https://github.com/ApmeM/jq-menu/
  *
  * @requires jQuery.js
  * @version 1.1 
