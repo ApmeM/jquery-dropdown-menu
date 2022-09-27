@@ -10,7 +10,7 @@ Also it contains a hack for Silverlight and ActiveX controls, that do not allow 
 
 ## Demonstration
 
-Demonstration abailable at http://apmem.github.com/jquery-dropdown-menu/
+Demonstration abailable at http://apmem.github.io/jquery-dropdown-menu/
 
 ## browser support
 
