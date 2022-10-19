@@ -43,10 +43,3 @@ Script contain a few configuration options:
 * speed (default: 300) - jquery expand animate speed.
 * delaytime (default 200) - time after mouseout before menu start collaping
 * zIndex (default 0) - z-index style for iframe under menu
-
-## Copyrights
-
-Created by Artem Votincev (apmem.org)
-
-Distributed under BSD license
-

@@ -1,0 +1,29 @@
+{
+  "name": "@apmem/jquery-dropdown-menu",
+  "version": "1.0.0",
+  "description": "jQuery menu plugin build a drop-down menu for regular ul/li tree-based structure.",
+  "main": "jquery.log.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": "https://github.com/ApmeM/jquery-dropdown-menu.git",
+  "keywords": [
+    "jquery",
+    "log"
+  ],
+  "author": "ApmeM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ApmeM/jquery-dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/ApmeM/jquery-dropdown-menu#readme",
+  "dependencies": {
+    "jquery": "^3.6.1"
+  },
+  "publishConfig": {
+    "apmem:registry": "https://npm.pkg.github.com"
+  }
+}
